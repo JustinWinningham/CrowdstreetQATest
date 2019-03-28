@@ -1,0 +1,20 @@
+To execute this test, simply run the "CrowdstreetQ2" jar file, all required packages are baked into that JAR.
+
+The source code can be found at the following path:
+
+CrowdStreet_QA_test\src\com\crowdstreet\selenium\webdriver\test\QuestionTwo.java
+
+NOTE: The test will stop just before confirming the Captcha on the registration page, since there is a bug on the site that causes an error when a user is registers.
+
+Steps to reproduce the error:
+
+Navigate to "test.Crowdstreet.com"
+click "join" at top right
+enter valid information for all fields (email, fist, last, password)
+
+AUTOMATION ENDS AT THIS POINT, the following two steps are automated, but disabled.
+
+click recaptcha
+click "SIGN UP"
+
+error thrown
